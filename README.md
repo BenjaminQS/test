@@ -6,3 +6,5 @@ test2
 add test3
 add test4
 test4
+test5
+test6
