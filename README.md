@@ -5,3 +5,4 @@ test1
 test2
 add test3
 add test4
+test4
