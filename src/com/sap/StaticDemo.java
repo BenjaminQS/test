@@ -1,16 +1,17 @@
 package com.sap;
 
-import com.sap1.*;;
+import java.util.ArrayList;
+import java.util.List;;
 
 class StaticDemo{  
     public static void main(String[]args){  
-         //Personp = new Person();  
-         //System. out.println(p.country);  
-          //可以用类名直接调用  
-         System.out.println(Person.getCountry());
-         Person.test();
+         List list = new ArrayList();
+         list.add("test");
+         list.add(123);
+         
+         String s = (String)list.get(0);
+         System.out.println("s:" + s);
+         Integer i = (Integer)list.get(1);
+         System.out.println("i:" + i);
    }  
 }
- class student{
-	 
- }
