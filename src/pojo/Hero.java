@@ -17,6 +17,10 @@ public class Hero {
 	private int damage;
 	private int armor;
 	
+	public static void test(){
+		System.out.println("Hero");
+	}
+	
 	@MyId
 	@MyGeneratedValue(strategy = "identity")
 	@MyColumn("id_")
